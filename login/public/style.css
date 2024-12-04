@@ -1,0 +1,23 @@
+.passwordContainer{
+    position:relative;
+}
+.password_eye{
+    position:absolute;
+    z-index:100;
+    right:2.5%;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.password_eye:hover{
+    font-size: 1.5em;
+}
+.productCard{
+    box-shadow: 14px 10px 12px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 14px 10px 12px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 14px 10px 12px 0px rgba(0,0,0,0.75);
+
+}
+.qty{
+    max-width: 50px !important;
+}
