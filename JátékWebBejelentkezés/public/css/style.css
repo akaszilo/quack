@@ -1,0 +1,38 @@
+body{
+  background-image: url('../../img/gliterryBackground.jpg');
+}
+
+#contentItem{
+  width: 100px;
+}
+
+#glitteryCatId{
+  height: 150px;
+  width: auto;
+  display: flex;
+  text-align: right;
+}
+
+.passwordIcon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.passwordIcon:hover {
+  cursor: pointer;
+}
+
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.password-container input[type="password"],
+.password-container input[type="text"] {
+    width: 100%;
+    padding-right: 40px;
+}
+
+/* Password Eye Icon formatting END*/
